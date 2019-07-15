@@ -17,5 +17,12 @@ html {
 }
 
 header {
-    background
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
 }
