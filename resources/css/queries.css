@@ -1,0 +1,19 @@
+/* Big tablet to 1200px (widths smaller than 1140px row */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Small tablet to big tablet in portrait view */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* phones to small tablets */
+@media only screen and (max-width: 767px) {
+  
+}
+
+/* small phones */
+@media only screen and (max-width: 480px) {
+
+}

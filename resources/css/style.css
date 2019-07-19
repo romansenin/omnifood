@@ -410,7 +410,7 @@ cite img {
   border-radius: 5px;
   width: 90%;
   margin-left: 5%;
-  box-shadow: 0 2px 2px #efefef;
+  box-shadow: 0 2px 2px #dfdfdf;
 }
 
 .plan-box div {
@@ -456,6 +456,14 @@ cite img {
 /* ------------------------- */
 /* FORM */
 /* ------------------------- */
+
+.section-form .outer-row {
+  border:  1px solid #f4f4f4;
+  padding: 20px 0;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 2px #dfdfdf;
+}
 
 .contact-form {
   width: 60%;
