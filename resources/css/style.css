@@ -11,16 +11,18 @@
 }
 
 html {
-  color: rgb(63, 63, 63);
+  color: #555;
   font-family: "Lato", "Arial", "sans-serif";
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+  zoom: 1;
+}
 .clearfix::after {
-  content: '.';
+  content: ".";
   clear: both;
   display: block;
   height: 0;
@@ -100,6 +102,36 @@ h2::after {
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
+}
+
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 150%;
+  margin-right: 10px;
+  /* align icons with text */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+/* ------ LINKS ------ */
+
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
 }
 
 /* ------ BUTTONS ------ */
@@ -279,7 +311,6 @@ header {
 .works-step div {
   color: #e67e22;
   border: 2px solid #e67e22;
-  display: block;
   border-radius: 50%;
   height: 55px;
   width: 55px;
@@ -290,8 +321,27 @@ header {
   margin-right: 25px;
 }
 
+.button-app:link,
+.button-app:visited {
+  border: 0;
+}
+
 .button-app img {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/* ------------------------- */
+/* CITIES */
+/* ------------------------- */
+
+.section-cities img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
 }
