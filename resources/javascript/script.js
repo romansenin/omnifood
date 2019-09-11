@@ -2,11 +2,8 @@ $(document).ready(() => {
   // For the sticky navigation
   $(".js--section-features").waypoint(
     function(direction) {
-      if (direction === "down") {
-        $("nav").addClass("sticky");
-      } else {
-        $("nav").removeClass("sticky");
-      }
+      if (direction === "down") $("nav").addClass("sticky");
+      else $("nav").removeClass("sticky");
     },
     { offset: "60px" }
   );
@@ -98,4 +95,20 @@ $(document).ready(() => {
     },
     { offset: "65%" }
   );
+
+  // Mobile nav
+  $(".js--nav-icon").click(function() {
+    let nav = $(".js--main-nav");
+    let icon = $(".js--nav-icon i");
+
+    nav.slideToggle(200);
+
+    if (icon.hasClass("ion-android-menu")) {
+      icon.addClass("ion-close-round");
+      icon.removeClass("ion-android-menu");
+    } else {
+      icon.addClass("ion-android-menu");
+      icon.removeClass("ion-close-round");
+    }
+  });
 });
