@@ -1,6 +1,6 @@
 #  omnifood
 
-![Omnifood Page](./media/omnifood.png)
+![Omnifood Page](./media/omnifood.PNG)
 
 [Deployed Project](https://romansenin.github.io/omnifood)
 
